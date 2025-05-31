@@ -8,17 +8,14 @@
 	<header>SELAMAT DATANG KE DIGITAL <br> COLLEGE SHAH ALAM</header>
 
 	<section>
-		<nav>
-			<h2>
-				MENU
-			</h2>
-			&nbsp
+		<!-- Fatini ubah  -->
+    	<nav class="navbar">
 			<ul>
-				<li><a href="logmasuk.php" style="color: whitesmoke;">LOG MASUK</a></li><br>&nbsp
-				<li><a href="logout.php" style="color: whitesmoke;">LOG OUT</a></li><br>
-				&nbsp
+				<li><a href="logmasuk.php" style="color: whitesmoke;">LOG MASUK</a></li>
+				<li><a href="logout.php" style="color: whitesmoke;">LOG OUT</a></li>
 			</ul>
 		</nav>
+		<!-- done -->
 		
 		<article>
 		<div class="data">

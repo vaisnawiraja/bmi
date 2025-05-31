@@ -18,19 +18,16 @@ $NAMAGURU=$_SESSION['sUsername'];//ambil id utk pass value
 </header>
 
 <section>
-    <nav>
-        <h2>
-            MENU
-        </h2>
-        &nbsp
-    <!--ini adalah link asas untuk rangka sahaja, akan di upgrade untuk menjadi navigation bar yang lebih baik-->
-
+    <!-- Fatini ubah  -->
+    <nav class="navbar">
         <ul>
-            <li><a href="dashboard.php">DASHBOARD</a></li><br>&nbsp
-            <li><a href="senarai_semua_pelajar.php">SENARAI PELAJAR</a></li><br>&nbsp
-            <li><a href="logout.php" style="color: whitesmoke;">LOGOUT</a></li><br>&nbsp
+            <li><a href="dashboard.php">DASHBOARD</a></li>
+            <li><a href="senarai_semua_pelajar.php">SENARAI PELAJAR</a></li>
+            <li><a href="logout.php" style="color: whitesmoke;">LOGOUT</a></li>
         </ul>
     </nav>
+    <!-- done -->
+     
     <article>
         <center><h1 class="title"> TAMBAH REKOD PELAJAR BAHARU</h1></center>
         &nbsp

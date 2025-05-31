@@ -8,12 +8,8 @@
 <header>DASHBOARD GURU</header>
 <center><i>Gaya hidup yang cergas dan sihat sepanjang hayat</i></center>
 <section>
-	<nav>
-		<h2>
-			MENU
-		</h2>
-		<!--ini adalah link asas untuk rangka sahaja, akan di upgrade untuk menjadi navigation bar yang lebih baik -->
-
+	<!-- Fatini ubah  -->
+    <nav class="navbar">
 		<ul>
 			<li>utama.html</li>
 			<li><a href="dashboard.php">dashboard</a></li>
@@ -22,6 +18,8 @@
 			<li>logout.html</li>
 		</ul>
 	</nav>
+	<!-- done -->
+
 	<article>
 	<center>
 	<h1>Tambah maklumat pelajar</h1>

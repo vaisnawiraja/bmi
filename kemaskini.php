@@ -10,16 +10,15 @@
   <center><i>Gaya hidup yang cergas dan sihat sepanjang hayat</i></center>
   </header>
   <section>
-    <nav>
-      <h2>MENU</h2>
-      <!-- ini adalah link asas untuk rangka sahaja , akan di upgrade untuk menjadi nav bar yang lebih baik -->
+    <!-- Fatini ubah  -->
+    <nav class="navbar">
       <ul>
-        <br>
-        <li><a href="dashboard.php">DASHBOARD</a></li><br>&nbsp
-        <li><a href="senarai_semua_pelajar.php">SENARAI PELAJAR</a></li><br>&nbsp
-        <li><a href="logout.php">LOGOUT</a></li><br>&nbsp
+        <li><a href="dashboard.php">DASHBOARD</a></li>
+        <li><a href="senarai_semua_pelajar.php">SENARAI PELAJAR</a></li>
+        <li><a href="logout.php">LOGOUT</a></li>
       </ul>
     </nav>
+    <!-- done -->
   <article>
     
   <center>

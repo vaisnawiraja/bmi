@@ -23,19 +23,15 @@ $res=mysqli_fetch_array($result);
 <center><i>Gaya hidup yang cergas dan sihat sepanjang hayat </i></center>
 </header>
 <section>
-<nav>
-        <h2>
-            MENU
-        </h2>
-    <!--ini adalah link asas untuk rangka sahaja, akan di upgrade untuk menjadi navigation bar yang lebih baik-->
-
+    <!-- Fatini ubah  -->
+    <nav class="navbar">
         <ul>
-        &nbsp
-            <li><a href="dashboard.php" style="color: whitesmoke;">DASHBOARD</a></li><br>
-            &nbsp
-            <li><a href="logout.php" style="color: whitesmoke;">LOGOUT</a></li><br>
+            <li><a href="dashboard.php" style="color: whitesmoke;">DASHBOARD</a></li>
+            <li><a href="logout.php" style="color: whitesmoke;">LOGOUT</a></li>
         </ul>
     </nav>
+    <!-- done -->
+     
         <center>
             <article>
             <div class="data">

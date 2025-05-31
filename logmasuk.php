@@ -5,22 +5,17 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<header>SELAMAT DATANG KE DIGITAL &nbsp
+<header>SELAMAT DATANG KE DIGITAL <br>
 	COLLEGE SHAH ALAM</header>
 <section>
-	<nav>
-		<h2>
-			MENU
-		</h2>
-		<!--ini adalah link asas ybtyj rangka sahaja, akan di upgrade untuk menjadi navigation bar yang lebih baik -->
-
+	<!-- Fatini ubah  -->
+    <nav class="navbar">
 		<ul>
-		&nbsp
-			<li><a href="index.php" style="color: whitesmoke;">BACK</a></li><br>&nbsp
-			<li><a href="logmasuk.php" style="color: whitesmoke;">LOG MASUK</a></li><br>
-			&nbsp
+			<li><a href="index.php" style="color: whitesmoke;">BACK</a></li>
+			<li><a href="logmasuk.php" style="color: whitesmoke;">LOG MASUK</a></li>
 		</ul>
 	</nav>
+	<!-- done -->
 	<article>
 		<div class="data">
 		<h2>BORANG LOG MASUK</h2>
