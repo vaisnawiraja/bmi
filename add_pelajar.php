@@ -14,8 +14,7 @@ $NAMAGURU=$_SESSION['sUsername'];//ambil id utk pass value
 ?>
 <header>DAFTAR PELAJAR<br>
 &nbsp
-<center><i>Gaya hidup yang cergas dan sihat sepanjang hayat </i></center>
-</header>
+<center><i>Gaya hidup yang cergas dan sihat sepanjang hayat </i></center></header>
 
 <section>
     <!-- Fatini ubah  -->
@@ -68,7 +67,7 @@ $NAMAGURU=$_SESSION['sUsername'];//ambil id utk pass value
 				</tr>
 
 				<tr>
-					<td><input type="submit" name="submit" value="submit"></td>
+					<td><input type="submit" name="submit" value="submit" class="modern-button"></td>
 				</tr>
 			</table>
 		</form>
