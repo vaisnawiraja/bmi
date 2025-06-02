@@ -8,7 +8,7 @@ body{
 }
 header{
 	font-weight: bolder;
-	background-color: purple;
+	background-color:plum;
 	padding: 30px;
 	text-align: center;
 	font-size: 35px;
@@ -43,7 +43,7 @@ a:hover{
 }
 article{
 	padding: 20px;
-	background: purple;
+	background: plum;
 }
 .data{
 	margin-bottom: 100px;
