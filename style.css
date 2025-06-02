@@ -3,9 +3,11 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 body{
 	font-family: Arial, Hevitica, sans-serif;
 }
+
 header{
 	font-weight: bolder;
 	background-color:plum;
@@ -14,66 +16,81 @@ header{
 	font-size: 35px;
 	color: white;
 }
+
 .title{
 	color: white;
 }
-nav{
-	width: 30;
-	background: rebeccapurple;
-	padding: 20px;
-	color: white;
+
+.navbar{
+    background: rebeccapurple;
+    overflow: hidden;
+    color: white;
 }
-nav ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
 }
-li 
-a{
-	text-decoration: none;
-	color: white;
-	float: left;
+
+.navbar li {
+    width: px;
 }
-a:hover{
-	color: purple;
+
+.navbar a{
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    text-decoration: none;
 }
- a:active{
-	color: purple;
+
+.navbar li:hover {
+  background-color: rgb(206, 42, 206);
 }
+
 article{
 	padding: 20px;
 	background: plum;
 }
+
 .data{
 	margin-bottom: 100px;
 	border-radius: 25px;
 	padding: 5%;
 	background: white;
 }
+
 section:after{
 	background-color: purple;
 	content: "";
 	display: table;
 	clear: both;
 }
+
 button {
 	padding: 10px;
 }
+
 button a,td a{
 	color: black;
 	text-decoration: none;
 }
+
 table{
 	text-align: center;
 	border-collapse: collapse;
 }
+
 td{
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
 footer{
 	width: 100%;
 	position: fixed;
@@ -83,6 +100,7 @@ footer{
 	text-align: center;
 	color: white;
 }
+
 @media(max-width:  600px){
 	nav, article{
 		width: 100;

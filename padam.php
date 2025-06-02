@@ -9,20 +9,17 @@
 <header>DASHBOARD GURU</header>
 <center><i>Gaya hidup yang cergas dan sihat sepanjang hayat</i></center>
 <section>
-  <nav>
-    <h2>
-      MENU
-    </h2>
-    <!--ini adalah link asas untuk rangka sahaja, akan di upgrade untuk menjadi navigation bar yang lebih baik -->
-
+  <!-- Fatini ubah  -->
+  <nav class="navbar">
     <ul>
-      <li><a href="utama.html" style="color: whitesmoke;">Utama</a></li><br>
-      <li><a href="dashboard.php" style="color: whitesmoke;">Dashboard</a></li><br>
-      <li><a href="pengiraanmarkah.html" style="color: whitesmoke;">pengiraanmarkah.html</a></li><br>
-      <li><a href="bmi.html" style="color: whitesmoke;">bmi.html</a></li><br>
-      <li><a href="logout.html" style="color: whitesmoke;">logout.html</a></li><br>
+      <li><a href="utama.html" style="color: whitesmoke;">Utama</a></li>
+      <li><a href="dashboard.php" style="color: whitesmoke;">Dashboard</a></li>
+      <li><a href="pengiraanmarkah.html" style="color: whitesmoke;">pengiraanmarkah.html</a></li>
+      <li><a href="bmi.html" style="color: whitesmoke;">bmi.html</a></li>
+      <li><a href="logout.html" style="color: whitesmoke;">logout.html</a></li>
     </ul>
   </nav>
+  <!-- done -->
   <article>
     <?php
   include 'connection.php';
